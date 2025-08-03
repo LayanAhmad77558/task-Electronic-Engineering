@@ -1,0 +1,19 @@
+alking Algorithm for a Humanoid Robot (6 Servos)
+
+Assumption:
+ • 2 Servos for legs (hip movement)
+ • 2 Servos for knees
+ • 2 Servos for arms (balance or swing)
+
+⸻
+
+Algorithm Steps:
+ 1. Initialize robot in standing position (all servos at 90°).
+ 2. Lift left leg by moving left knee servo to 60°, and tilt body slightly right using right arm for balance.
+ 3. Swing left leg forward (left hip servo to ~120°).
+ 4. Place left leg down and return knee to 90°.
+ 5. Shift weight to the left leg.
+ 6. Lift right leg (right knee to 60°), tilt left arm for balance.
+ 7. Swing right leg forward (right hip to ~120°).
+ 8. Place right leg down and return knee to 90°.
+ 9. Repeat steps 2-8 for continuous walking.
